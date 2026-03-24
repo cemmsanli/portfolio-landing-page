@@ -4,295 +4,131 @@
 
 Student Name: Cem Sanli 
 Assignment: Web Authoring Assignment 1 
-Repository: [Link to your GitHub repository]
-Live Site: [Link to your GitHub Pages deployment] 
+Repository: https://github.com/cemmsanli/portfolio-landing-page
+Live Site: https://cemmsanli.github.io/portfolio-landing-page/ 
 
 
 
-# 1. Portfolio Overview
+1. Portfolio Overview
 
-This project is a portfolio landing page designed to showcase my machine learning projects and demonstrate basic web development skills using HTML and CSS.
+What is your portfolio and what does it do? 
 
-The website introduces the portfolio owner, presents a collection of projects, and provides navigation to additional pages such as the About and Contact sections.
+This is my personal professional site designed to show off the machine learning projects I’ve been working on. It’s a three page website that introduces who I am, displays my technical work in a clean grid format and gives people a way to get in touch with me.
 
-The design focuses on clarity, accessibility and a modern visual style using a dark purple color scheme.
+What makes your portfolio effective? 
 
+I think the dark purple theme reflects my personality and really fits the subject of AI and Machine Learning. I’m especially proud of how the project cards react when you hover over them it makes the site feel interactive and modern rather than just a static page.
 
-# 2. Page Contents
+2. Page Contents
 
-## Header Section
+Header Section
 
-The header contains the portfolio title as my name and the main navigation menu.
+Content: My name is styled like a signature using a cursive font, followed by a simple navigation list (Home, About, Contact).
 
-The navigation menu allows users to move between the Home, About and Contact pages easily.
+Reasoning: I wanted my name to stand out as a brand. Centering the navigation underneath makes it really easy to find on both desktop and mobile.
 
+Introduction Section
 
-## Introduction Section
+Content: A short "Hello!" and a brief explanation that this site is a collection of my ML studies.
 
-The introduction briefly explains who the portfolio owner is and what the website contains.
+Purpose: It immediately tells the visitor what they are looking at so they don't have to guess my background.
 
-This section helps visitors understand the purpose of the site when they first arrive.
+Projects Section
 
+Presentation: I used a CSS Grid to create a "Card" layout for my four main projects: the Artificial Neuron, Language Detector, Markov Chain Generator, and Digit Analyzer.
 
-## Projects Section
+Details: Each card has a relevant tech image, a title, a short description of how the model works, and a link button.
 
-The projects section displays four machine learning projects using a card layout.
+Design Choice: Cards are great because they group information visually. Even if the descriptions are different lengths, the grid keeps everything lined up perfectly.
 
-Each card includes:
+Navigation & Footer
 
-- Project title
-- Short description
-- Image placeholder
-- Link to the project documentation
+Navigation: It’s at the top of every page. It’s a standard horizontal list that stays consistent so the user never feels lost.
 
-This layout makes it easy to browse projects visually.
+Footer: A simple copyright notice with the year 2026 to make the site look official and finished.
 
+3. Special Features
+Feature 1: Interactive Hover Effects: I added a "scale" transformation to the project cards. When you mouse over them, they grow slightly, which makes the UI feel more responsive.
 
-## Navigation
+Feature 2: Responsive Grid: Using auto fit in my CSS means the projects automatically stack into one column on a phone but spread out on a laptop without me needing a million media queries.
 
-Navigation is located at the top of the page in the header.
+Feature 3: Custom Branding: I used a specific cursive font for the header to act as a logo, giving the site a more personal touch.
 
-The navigation menu includes:
+4. Technologies Used
+Core Tech
 
-- Home
-- About
-- Contact
+HTML5 & CSS3: The backbone of the entire project.
 
+Development Tools
 
-## Footer Section
+VS Code: My main editor for writing all the code.
 
-The footer contains a copyright notice using the HTML entity ©.
+Chrome/Safari/Brave: Used for constant testing and inspecting elements.
 
+Git/GitHub: For version control and hosting the live site.
 
-# 3. Technologies Used
+Key Elements & Techniques
 
-## Core Technologies
+Semantic HTML: I used <header>, <main>, <section>, and <footer> to keep the code organized and accessible.
 
-- HTML5
-- CSS3
+CSS Flexbox: Used for the navigation links and the contact form layout.
 
----
+CSS Grid: This was the main tool for the project gallery.
 
-## Development Tools
+5. Viewing the Site
+Local Setup:
 
-- VS Code (code editor)
-- Google Chrome (browser testing)
-- Safari (browser testing)
-- Brave (browser testing)
-- Git and GitHub (version control)
+Clone the repo: git clone https://github.com/cemmsanli/portfolio-repo
 
+Navigate to the folder: cd portfolio-repo
 
-## Key HTML Elements
+Open index.html in your browser.
 
-- `header`
-- `nav`
-- `section`
-- `footer`
-- `img`
-- `ul` and `li`
+Live Link: https://cemmsanli.github.io/portfolio-repo
 
+6. Design Decisions
+Color Scheme: I went with a deep purple (#0f0b1f) for the background and a brighter violet (#6a4cff) for accents. I chose this because it's my favorite color palette and it fits the AI theme.
 
-## Key CSS Techniques
+Accessibility: I made sure the text was off-white so that it has a high contrast against the dark background, making it easy to read for everyone.
 
-- Flexbox layout
-- CSS Grid for project cards
-- Hover effects
-- Typography styling
+Typography: I used Arial/Helvetica for the body text because it's clean and professional, while the cursive header adds a bit of personality.
 
+7. Credits and Attributions
+Images: Placeholders sourced from Pinterest and Vecteezy to represent the ML concepts.
 
-# 4. Viewing the Site
+Code: I used MDN Web Docs to help refine the Flexbox logic for my contact form.
 
-## View Locally
+Fonts: "Brush Script MT" for the logo.
 
-Clone the repository:
+8. Challenges and Solutions
+Problem: Initially, my project images were all different sizes, which made the cards look messy.
 
-## GitHub Pages
+Solution: I applied width: 100% and specific border-radius rules in CSS to force the images to fit the card containers uniformly.
 
-Live site:
+Lesson: I learned that managing image containers is just as important as the images themselves.
 
-# 5. Repository Structure
-portfolio/
-├── index.html
-├── about.html
-├── contact.html
-├── styles.css
-├── images/
-│ ├── project1.jpg
-│ ├── project2.jpg
-│ ├── project3.jpg
-│ ├── project4.jpg
-│ └── profile.jpg
-├── planning.md
-└── readme.md
+9. Learning Reflection
+HTML: I learned that using the right tags (like <nav> instead of just <div>) makes a huge difference in how clean the code looks and how screen readers see the site. It’s all about structure.
 
+CSS: This project really helped me master CSS Grid. Being able to create a layout that "just works" on different screen sizes without breaking was a huge "aha!" moment for me.
 
----
 
-# 6. Design Decisions
+10. Future Enhancements
+Content: I’d love to add actual "Case Study" pages for each project instead of just a summary.
 
-## Color Scheme
+Tech: I want to add a JavaScript "Dark/Light mode" toggle for users who prefer a bright screen.
 
-Primary: `#6a4cff`  
-Secondary: `#3c2a6b`  
-Accent: `#9d8cff`  
-Background: `#0f0b1f`  
-Text: `#f2f1ff`
 
-This dark purple color palette gives the website a modern technology-focused design while maintaining good readability.
+11. Testing and Validation
+HTML/CSS: Both files were run through the W3C validators. I had a few stray </div> tags at first, but I've cleared those up for the final version.
 
----
+Responsive Testing: I tested the site on my phone and my laptop. The grid scales down from 3-4 columns to a single column perfectly.
 
-## Typography
+12. Repository Information
+Repo Link: https://github.com/cemmsanli/portfolio-repo
 
-Headings: Arial  
-Body text: Verdana
-
-These fonts are clean, readable, and widely supported.
-
----
-
-## Layout
-
-The layout uses a vertical page structure with sections stacked vertically. The projects section uses a grid layout to display cards.
-
-This approach keeps the site organized and easy to navigate.
-
----
-
-# 7. Credits
-
-Images:
-
-- Placeholder images used for project cards
-
-Fonts:
-
-- System fonts (Arial and Verdana)
-
-Color palette:
-
-- Generated using Coolors.co
-
-Documentation:
-
-- MDN Web Docs
-- W3C Specifications
-
----
-
-# 8. Challenges and Solutions
-
-## Challenge 1
-
-Problem: Creating a consistent layout across pages.  
-Solution: Used a shared CSS stylesheet.
-
----
-
-## Challenge 2
-
-Problem: Designing project cards that look organized.  
-Solution: Used CSS Grid layout.
-
----
-
-## Challenge 3
-
-Problem: Creating interactive navigation links.  
-Solution: Implemented CSS hover states.
-
----
-
-# 9. Learning Reflection
-
-Through this project I learned how to structure a website using semantic HTML elements. I also learned the importance of separating content from design using CSS.
-
-Working on the styling helped me understand how typography, color, and spacing influence the appearance of a website.
-
-I also learned about the importance of planning a project before coding, including creating wireframes and defining the site structure.
-
----
-
-# 10. Future Improvements
-
-Possible improvements include:
-
-- Adding real machine learning project pages
-- Adding animations and transitions
-- Improving responsive design
-- Adding more detailed project descriptions
-
----
-
-# 11. Testing and Validation
-
-HTML Validation: W3C HTML Validator  
-CSS Validation: W3C CSS Validator
-
-Browsers tested:
-
-- Google Chrome
-- Mozilla Firefox
-
-Accessibility considerations:
-
-- Images include alt text
-- High contrast color scheme
-
----
-
-
- # Repository Information
-
-Repository Link
-
-GitHub Repository: [Full URL to your repository]
-
-Branch Information
-
-Main branch: [Branch name, typically “main” or “master”]
-
-GitHub Pages deployment branch: [Same as main branch, or note if different]
-
-Commit History
-
-Number of commits: [Approximate number]
-
-Commit message approach: [How did you write commit messages? Were they descriptive?]
-
-Best practices followed:
-
-* [List any Git best practices you implemented]
-
----
 
 13. Contact and Feedback
+If you have any questions about the code or the ML models, feel free to reach out to me on cem8anli@gmail.com or open an issue in this GitHub repository!
 
-Student Information
-
-Name: [Your name]
-
-Course: [Web Authoring 5N1910]
-
-Term: [Current academic term]
-
-Feedback
-
-Questions or feedback about this portfolio?
-[How should someone contact you? Email? GitHub issues?]
-
----
-
-Final Notes
-
-Optional: Use this space for any final thoughts, acknowledgments, or notes about your portfolio
-
-[Your final notes here]
-
----
-
-Documentation completed: [Date]
-
-Portfolio status: [Complete/In progress]
-
-Last updated: [Date of last significant update]
+Documentation completed: March 18, 2026
