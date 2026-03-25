@@ -14,37 +14,37 @@ Live Site: https://cemmsanli.github.io/portfolio-landing-page/
 
 ## 1. Portfolio Overview
 
-What is your portfolio and what does it do? 
+### What is your portfolio and what does it do? 
 
 This is my personal professional site designed to show off the machine learning projects I’ve been working on. It’s a three page website that introduces who I am, displays my technical work in a clean grid format and gives people a way to get in touch with me.
 
-What makes your portfolio effective? 
+### What makes your portfolio effective? 
 
 I think the dark purple theme reflects my personality and really fits the subject of AI and Machine Learning. I’m especially proud of how the project cards react when you hover over them it makes the site feel interactive and modern rather than just a static page.
 
 ## 2. Page Contents
 
-Header Section
+### Header Section
 
 Content: My name is styled like a signature using a cursive font, followed by a simple navigation list (Home, About, Contact).
 
 Reasoning: I wanted my name to stand out as a brand. Centering the navigation underneath makes it really easy to find on both desktop and mobile.
 
-Introduction Section
+### Introduction Section
 
 Content: A short "Hello!" and a brief explanation that this site is a collection of my ML studies.
 
 Purpose: It immediately tells the visitor what they are looking at so they don't have to guess my background.
 
-Projects Section
+### Projects Section
 
-Presentation: I used a CSS Grid to create a "Card" layout for my four main projects: the Artificial Neuron, Language Detector, Markov Chain Generator, and Digit Analyzer.
+Presentation: I used a CSS Grid to create a "Card" layout for my four main projects: the Artificial Neuron, Language Detector, Markov Chain Generator and Digit Analyzer.
 
-Details: Each card has a relevant tech image, a title, a short description of how the model works, and a link button.
+Details: Each card has a relevant tech image, a title, a short description of how the model works and a link button.
 
 Design Choice: Cards are great because they group information visually. Even if the descriptions are different lengths, the grid keeps everything lined up perfectly.
 
-Navigation & Footer
+### Navigation & Footer
 
 Navigation: It’s at the top of every page. It’s a standard horizontal list that stays consistent so the user never feels lost.
 
@@ -83,7 +83,7 @@ Local Setup:
 
 Clone the repo: git clone https://github.com/cemmsanli/portfolio-repo
 
-Navigate to the folder: cd portfolio-repo
+Navigate to the folder: cd portfolio-landing-page
 
 Open index.html in your browser.
 
