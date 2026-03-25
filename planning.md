@@ -136,9 +136,9 @@ Navigation will appear in the header at the top of the page.
 
 ## Navigation Links
 
-1. Home → index.html  
-2. About → about.html  
-3. Contact → contact.html  
+1. Home -> index.html  
+2. About -> about.html  
+3. Contact -> contact.html  
  
 
 
