@@ -72,7 +72,7 @@ Git/GitHub: For version control and hosting the live site.
 
 Key Elements & Techniques
 
-Semantic HTML: I used <header>, <main>, <section>, and <footer> to keep the code organized and accessible.
+Semantic HTML: I used `<header>, <main>, <section>, and <footer>` to keep the code organized and accessible.
 
 CSS Flexbox: Used for the navigation links and the contact form layout.
 
@@ -111,7 +111,7 @@ Solution: I applied width: 100% and specific border-radius rules in CSS to force
 Lesson: I learned that managing image containers is just as important as the images themselves.
 
 ## 9. Learning Reflection
-HTML: I learned that using the right tags (like <nav> instead of just <div>) makes a huge difference in how clean the code looks and how screen readers see the site. It’s all about structure.
+HTML: I learned that using the right tags (like `<nav>` instead of just `<div>`) makes a huge difference in how clean the code looks and how screen readers see the site. It’s all about structure.
 
 CSS: This project really helped me master CSS Grid. Being able to create a layout that "just works" on different screen sizes without breaking was a huge "aha!" moment for me.
 
